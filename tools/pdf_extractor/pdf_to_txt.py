@@ -113,14 +113,14 @@ def format_word_coordinates(page: fitz.Page) -> str:
     """Return embedded words with PDF bounding boxes for geometric review."""
     words = page.get_text("words", sort=False)
     words.sort(key=lambda item: (round(item[1], 1), item[0]))
-    lines = ["x0\\ty0\\tx1\\ty1\\tblock\\tline\\tword"]
+    lines = ["x0\ty0\tx1\ty1\tblock\tline\tword"]
     for x0, y0, x1, y1, word, block_no, line_no, word_no in words:
-        safe_word = str(word).replace("\\t", " ").replace("\\n", " ")
+        safe_word = str(word).replace("\t", " ").replace("\n", " ")
         lines.append(
-            f"{x0:.2f}\\t{y0:.2f}\\t{x1:.2f}\\t{y1:.2f}\\t"
-            f"{block_no}\\t{line_no}\\t{safe_word}"
+            f"{x0:.2f}\t{y0:.2f}\t{x1:.2f}\t{y1:.2f}\t"
+            f"{block_no}\t{line_no}\t{safe_word}"
         )
-    return "\\n".join(lines)
+    return "\n".join(lines)
 
 
 def extract_pdf(
@@ -187,9 +187,9 @@ def extract_pdf(
                 out.write("\n")
 
                 if include_word_coordinates:
-                    out.write("\\n[WORD COORDINATES — PDF POINTS]\\n")
-                    out.write("-" * 40 + "\\n")
-                    out.write(format_word_coordinates(document[page_number - 1]) + "\\n")
+                    out.write("\n[WORD COORDINATES — PDF POINTS]\n")
+                    out.write("-" * 40 + "\n")
+                    out.write(format_word_coordinates(document[page_number - 1]) + "\n")
 
             out.write("\n" + "=" * 78 + "\nEXTRACTION SUMMARY\n")
             out.write("=" * 78 + "\n")
