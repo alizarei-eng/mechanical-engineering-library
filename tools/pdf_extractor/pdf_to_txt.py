@@ -109,10 +109,25 @@ def extract_page_tables(page: pdfplumber.page.Page) -> list[list[list[object]]]:
     return []
 
 
+def format_word_coordinates(page: fitz.Page) -> str:
+    """Return embedded words with PDF bounding boxes for geometric review."""
+    words = page.get_text("words", sort=False)
+    words.sort(key=lambda item: (round(item[1], 1), item[0]))
+    lines = ["x0\\ty0\\tx1\\ty1\\tblock\\tline\\tword"]
+    for x0, y0, x1, y1, word, block_no, line_no, word_no in words:
+        safe_word = str(word).replace("\\t", " ").replace("\\n", " ")
+        lines.append(
+            f"{x0:.2f}\\t{y0:.2f}\\t{x1:.2f}\\t{y1:.2f}\\t"
+            f"{block_no}\\t{line_no}\\t{safe_word}"
+        )
+    return "\\n".join(lines)
+
+
 def extract_pdf(
     pdf_path: Path,
     output_path: Path,
     pages_argument: str | None = None,
+    include_word_coordinates: bool = False,
 ) -> tuple[int, int, int]:
     if not pdf_path.is_file():
         raise FileNotFoundError(f"Input PDF not found: {pdf_path}")
@@ -171,6 +186,11 @@ def extract_pdf(
                     out.write("[No table detected automatically.]\n")
                 out.write("\n")
 
+                if include_word_coordinates:
+                    out.write("\\n[WORD COORDINATES — PDF POINTS]\\n")
+                    out.write("-" * 40 + "\\n")
+                    out.write(format_word_coordinates(document[page_number - 1]) + "\\n")
+
             out.write("\n" + "=" * 78 + "\nEXTRACTION SUMMARY\n")
             out.write("=" * 78 + "\n")
             out.write(f"Pages processed: {len(selected)}\n")
@@ -199,11 +219,16 @@ def main() -> int:
         "--pages",
         help="Optional 1-based page selection, e.g. 1-10,15,20-25",
     )
+    parser.add_argument(
+        "--word-coordinates",
+        action="store_true",
+        help="Append word bounding boxes for geometric review of complex tables.",
+    )
     args = parser.parse_args()
 
     try:
         processed, text_pages, tables = extract_pdf(
-            args.pdf, args.output, args.pages
+            args.pdf, args.output, args.pages, args.word_coordinates
         )
     except (FileNotFoundError, ValueError, fitz.FileDataError) as error:
         parser.error(str(error))
