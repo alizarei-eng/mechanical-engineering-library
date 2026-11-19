@@ -18,6 +18,18 @@ Extract all pages:
 
     python pdf_to_txt.py "input.pdf" -o "output.txt"
 
+Extract a page with word coordinates (recommended for Persian RTL tables,
+stacked fractions, and mixed-number values):
+
+    python pdf_to_txt.py "input.pdf" -o "page-177-coordinates.txt" --pages 177 --word-coordinates
+
+When enabled, each processed page receives a [WORD COORDINATES — PDF POINTS]
+section. It records each embedded word's bounding box (x0, y0, x1, y1), block,
+line, and text. Coordinates use the PDF page's top-left origin and point units.
+Words are retained individually; this does not automatically infer cell
+boundaries or merge stacked fractions. Use the coordinates to group tokens by
+their actual row and column before normalizing values such as 1 1/2.
+
 Extract a page range (page numbers are 1-based):
 
     python pdf_to_txt.py "input.pdf" -o "chapter-5.txt" --pages 105-145
