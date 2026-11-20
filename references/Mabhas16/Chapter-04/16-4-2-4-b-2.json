@@ -1,0 +1,25 @@
+{
+  "id": "16-4-2-4-b-2",
+  "title_fa": "حداقل شیب لوله‌های افقی فاضلاب",
+  "rows": [
+    {
+      "nominal_diameter_mm": "تا 65",
+      "nominal_diameter_in": "تا 2 1/2",
+      "minimum_slope_percent": 2,
+      "minimum_slope_in_per_ft": "1/4"
+    },
+    {
+      "nominal_diameter_mm": "80 تا 150",
+      "nominal_diameter_in": "3 تا 6",
+      "minimum_slope_percent": 1,
+      "minimum_slope_in_per_ft": "1/8"
+    },
+    {
+      "nominal_diameter_mm": "200 و بزرگتر",
+      "nominal_diameter_in": "8 و بزرگتر",
+      "minimum_slope_percent": 0.5,
+      "minimum_slope_in_per_ft": "1/16"
+    }
+  ],
+  "verification_status": "transcribed_from_user_photo"
+}
