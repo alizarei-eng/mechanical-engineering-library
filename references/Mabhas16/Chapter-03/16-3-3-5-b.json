@@ -1,0 +1,106 @@
+{
+  "table_id": "16-3-3-5-b",
+  "title_fa": "حداقل مقدار فشار جریان آب در پشت شیرهای لوازم بهداشتی",
+  "units": {
+    "head": "mH2O",
+    "pressure": "psi"
+  },
+  "rows": [
+    {
+      "fixture": "وان",
+      "head_m": 5.5,
+      "psi": 8
+    },
+    {
+      "fixture": "وان با شیر ترموستاتیک",
+      "head_m": 14,
+      "psi": 20
+    },
+    {
+      "fixture": "بیده",
+      "head_m": 2.7,
+      "psi": 4
+    },
+    {
+      "fixture": "بیده با شیر ترموستاتیک",
+      "head_m": 14,
+      "psi": 20
+    },
+    {
+      "fixture": "شیر مخلوط",
+      "head_m": 5.5,
+      "psi": 8
+    },
+    {
+      "fixture": "ماشین ظرفشویی خانگی",
+      "head_m": 5.5,
+      "psi": 8
+    },
+    {
+      "fixture": "آبخوری",
+      "head_m": 5.5,
+      "psi": 8
+    },
+    {
+      "fixture": "لگن رختشویی",
+      "head_m": 5.5,
+      "psi": 8
+    },
+    {
+      "fixture": "دستشویی",
+      "head_m": 5.5,
+      "psi": 8
+    },
+    {
+      "fixture": "دوش",
+      "head_m": 5.5,
+      "psi": 8
+    },
+    {
+      "fixture": "دوش با شیر ترموستاتیک",
+      "head_m": 14,
+      "psi": 20
+    },
+    {
+      "fixture": "شیر سرشیلنگی",
+      "head_m": 5.5,
+      "psi": 8
+    },
+    {
+      "fixture": "شیر آفتابه",
+      "head_m": 5.5,
+      "psi": 8
+    },
+    {
+      "fixture": "سینک یا سینی",
+      "head_m": 5.5,
+      "psi": 8
+    },
+    {
+      "fixture": "سینک آشپزخانه خانگی",
+      "head_m": 5.5,
+      "psi": 8
+    },
+    {
+      "fixture": "سینک شستشوی عمومی",
+      "head_m": 5.5,
+      "psi": 8
+    },
+    {
+      "fixture": "یورینال با فلاش والو",
+      "head_m": 17,
+      "psi": 25
+    },
+    {
+      "fixture": "توالت با فلاش والو",
+      "head_m": 17,
+      "psi": 25
+    },
+    {
+      "fixture": "توالت با فلاش تانک",
+      "head_m": 5.5,
+      "psi": 8
+    }
+  ],
+  "verification": "transcribed_from_user_photo; visually_checked; engineering_use_requires_final_source_review"
+}
