@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "table_id": "16-7-5-1-a",
+  "materials": {
+    "1": {
+      "name_fa": "چدنی",
+      "name_en": "cast_iron"
+    },
+    "2": {
+      "name_fa": "فولادی گالوانیزه",
+      "name_en": "galvanized_steel"
+    },
+    "3": {
+      "name_fa": "مسی",
+      "name_en": "copper"
+    },
+    "4": {
+      "name_fa": "پلی اتیلن معمولی یا مشبک PEX",
+      "name_en": "pe_pex"
+    },
+    "5": {
+      "name_fa": "پلی اتیلن چندلایه با آلومینیوم PEX-AL-PEX",
+      "name_en": "pex_al_pex"
+    },
+    "6": {
+      "name_fa": "پلی اتیلن ترکیبی دمای بالا با آلومینیوم",
+      "name_en": "high_temperature_pe_al"
+    },
+    "7": {
+      "name_fa": "پی وی سی",
+      "name_en": "pvc"
+    }
+  },
+  "field_labels_fa": {
+    "row_id": "شناسه ردیف",
+    "material_id": "شناسه جنس لوله",
+    "diameter_min_mm": "حد پایین قطر نامی (میلی متر)",
+    "diameter_max_mm": "حد بالای قطر نامی (میلی متر)",
+    "max_vertical_spacing_m": "حداکثر فاصله بست لوله قائم (متر)",
+    "max_horizontal_spacing_m": "حداکثر فاصله بست لوله افقی (متر)"
+  }
+}
