@@ -1,0 +1,39 @@
+{
+  "schema_version": "2.0",
+  "source_file": "references/Mabhas16/Chapter-03/16-3-6-1-flanges.json",
+  "source_validation": "transcribed_visual_review_pending",
+  "data": {
+    "title_fa": "استانداردهای فلنج برای لوله‌های فولادی و چدنی",
+    "columns": [
+      "standard_family",
+      "cast_iron_flange",
+      "steel_flange",
+      "steel_flange_large"
+    ],
+    "rows": [
+      [
+        "EN",
+        "EN1092-2",
+        "EN1092-1",
+        "EN1092-1"
+      ],
+      [
+        "ISO",
+        "ISO7005-2",
+        "ISO7005-1",
+        "ISO7005-1"
+      ],
+      [
+        "ASME",
+        "ASME16.1",
+        "ASME16.5",
+        "ASME16.5"
+      ]
+    ],
+    "note": "عنوان ستون‌های فلنج چدنی و فولادی در تصویر آمده؛ دسته‌بندی steel_flange_large فقط برای حفظ سه ستون است و باید پیش از استفاده اصلاح شود.",
+    "source": "user_supplied_photographs_2026-11-20",
+    "validation_status": "transcribed_visual_review_pending"
+  },
+  "dictionaries": {},
+  "conversion_note": "Source retained; ambiguous expressions preserved."
+}
