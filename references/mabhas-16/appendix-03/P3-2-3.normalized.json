@@ -1,0 +1,76 @@
+{
+  "schema_version": "2.0",
+  "source_file": "references/mabhas-16/appendix-03/P3-2-3.json",
+  "source_validation": "pending_user_validation",
+  "data": {
+    "table_id": "P3-2-3",
+    "title": "جدول پ ۳-۲-۳ | مقدار D.F.U. برای لوازم بهداشتی بر حسب قطر نامی سیفون",
+    "source_markdown": "P3-2-3.md",
+    "source_type": "user_supplied_photograph_transcription",
+    "validation_status": "pending_user_validation",
+    "numeric_policy": "Values are preserved as strings to prevent losing mixed fractions, nominal sizes, printed precision or special symbols. Null denotes blank, not zero.",
+    "columns": [
+      "D.F.U.",
+      {
+        "id": 1,
+        "label_fa": "قطر نامی سیفون (میلی‌متر)"
+      },
+      {
+        "id": 2,
+        "label_fa": "قطر نامی سیفون (اینچ)"
+      }
+    ],
+    "row_count": 6,
+    "rows": [
+      {
+        "D.F.U.": 1,
+        "قطر نامی سیفون (میلی‌متر)": {
+          "id": 1,
+          "label_fa": "32 یا کمتر"
+        },
+        "قطر نامی سیفون (اینچ)": {
+          "id": 1,
+          "label_fa": "1 1/4 یا کمتر"
+        }
+      },
+      {
+        "D.F.U.": 2,
+        "قطر نامی سیفون (میلی‌متر)": 40,
+        "قطر نامی سیفون (اینچ)": 1.5
+      },
+      {
+        "D.F.U.": 3,
+        "قطر نامی سیفون (میلی‌متر)": 50,
+        "قطر نامی سیفون (اینچ)": 2
+      },
+      {
+        "D.F.U.": 4,
+        "قطر نامی سیفون (میلی‌متر)": 65,
+        "قطر نامی سیفون (اینچ)": 2.5
+      },
+      {
+        "D.F.U.": 5,
+        "قطر نامی سیفون (میلی‌متر)": 80,
+        "قطر نامی سیفون (اینچ)": 3
+      },
+      {
+        "D.F.U.": 6,
+        "قطر نامی سیفون (میلی‌متر)": 100,
+        "قطر نامی سیفون (اینچ)": 4
+      }
+    ]
+  },
+  "dictionaries": {
+    "columns": {
+      "قطر نامی سیفون (میلی‌متر)": 1,
+      "قطر نامی سیفون (اینچ)": 2
+    },
+    "قطر نامی سیفون (میلی‌متر)": {
+      "32 یا کمتر": 1
+    },
+    "قطر نامی سیفون (اینچ)": {
+      "1 1/4 یا کمتر": 1
+    }
+  },
+  "conversion_note": "Source retained; ambiguous expressions preserved."
+}
