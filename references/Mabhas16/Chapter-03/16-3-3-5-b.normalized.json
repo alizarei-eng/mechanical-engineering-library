@@ -1,0 +1,192 @@
+{
+  "schema_version": "2.0",
+  "source_file": "references/Mabhas16/Chapter-03/16-3-3-5-b.json",
+  "source_validation": "transcribed_from_user_photo; visually_checked; engineering_use_requires_final_source_review",
+  "data": {
+    "table_id": "16-3-3-5-b",
+    "title_fa": "حداقل مقدار فشار جریان آب در پشت شیرهای لوازم بهداشتی",
+    "units": {
+      "head": "mH2O",
+      "pressure": "psi"
+    },
+    "rows": [
+      {
+        "fixture": {
+          "id": 1,
+          "label_fa": "وان"
+        },
+        "head_m": 5.5,
+        "psi": 8
+      },
+      {
+        "fixture": {
+          "id": 2,
+          "label_fa": "وان با شیر ترموستاتیک"
+        },
+        "head_m": 14,
+        "psi": 20
+      },
+      {
+        "fixture": {
+          "id": 3,
+          "label_fa": "بیده"
+        },
+        "head_m": 2.7,
+        "psi": 4
+      },
+      {
+        "fixture": {
+          "id": 4,
+          "label_fa": "بیده با شیر ترموستاتیک"
+        },
+        "head_m": 14,
+        "psi": 20
+      },
+      {
+        "fixture": {
+          "id": 5,
+          "label_fa": "شیر مخلوط"
+        },
+        "head_m": 5.5,
+        "psi": 8
+      },
+      {
+        "fixture": {
+          "id": 6,
+          "label_fa": "ماشین ظرفشویی خانگی"
+        },
+        "head_m": 5.5,
+        "psi": 8
+      },
+      {
+        "fixture": {
+          "id": 7,
+          "label_fa": "آبخوری"
+        },
+        "head_m": 5.5,
+        "psi": 8
+      },
+      {
+        "fixture": {
+          "id": 8,
+          "label_fa": "لگن رختشویی"
+        },
+        "head_m": 5.5,
+        "psi": 8
+      },
+      {
+        "fixture": {
+          "id": 9,
+          "label_fa": "دستشویی"
+        },
+        "head_m": 5.5,
+        "psi": 8
+      },
+      {
+        "fixture": {
+          "id": 10,
+          "label_fa": "دوش"
+        },
+        "head_m": 5.5,
+        "psi": 8
+      },
+      {
+        "fixture": {
+          "id": 11,
+          "label_fa": "دوش با شیر ترموستاتیک"
+        },
+        "head_m": 14,
+        "psi": 20
+      },
+      {
+        "fixture": {
+          "id": 12,
+          "label_fa": "شیر سرشیلنگی"
+        },
+        "head_m": 5.5,
+        "psi": 8
+      },
+      {
+        "fixture": {
+          "id": 13,
+          "label_fa": "شیر آفتابه"
+        },
+        "head_m": 5.5,
+        "psi": 8
+      },
+      {
+        "fixture": {
+          "id": 14,
+          "label_fa": "سینک یا سینی"
+        },
+        "head_m": 5.5,
+        "psi": 8
+      },
+      {
+        "fixture": {
+          "id": 15,
+          "label_fa": "سینک آشپزخانه خانگی"
+        },
+        "head_m": 5.5,
+        "psi": 8
+      },
+      {
+        "fixture": {
+          "id": 16,
+          "label_fa": "سینک شستشوی عمومی"
+        },
+        "head_m": 5.5,
+        "psi": 8
+      },
+      {
+        "fixture": {
+          "id": 17,
+          "label_fa": "یورینال با فلاش والو"
+        },
+        "head_m": 17,
+        "psi": 25
+      },
+      {
+        "fixture": {
+          "id": 18,
+          "label_fa": "توالت با فلاش والو"
+        },
+        "head_m": 17,
+        "psi": 25
+      },
+      {
+        "fixture": {
+          "id": 19,
+          "label_fa": "توالت با فلاش تانک"
+        },
+        "head_m": 5.5,
+        "psi": 8
+      }
+    ],
+    "verification": "transcribed_from_user_photo; visually_checked; engineering_use_requires_final_source_review"
+  },
+  "dictionaries": {
+    "fixture": {
+      "وان": 1,
+      "وان با شیر ترموستاتیک": 2,
+      "بیده": 3,
+      "بیده با شیر ترموستاتیک": 4,
+      "شیر مخلوط": 5,
+      "ماشین ظرفشویی خانگی": 6,
+      "آبخوری": 7,
+      "لگن رختشویی": 8,
+      "دستشویی": 9,
+      "دوش": 10,
+      "دوش با شیر ترموستاتیک": 11,
+      "شیر سرشیلنگی": 12,
+      "شیر آفتابه": 13,
+      "سینک یا سینی": 14,
+      "سینک آشپزخانه خانگی": 15,
+      "سینک شستشوی عمومی": 16,
+      "یورینال با فلاش والو": 17,
+      "توالت با فلاش والو": 18,
+      "توالت با فلاش تانک": 19
+    }
+  },
+  "conversion_note": "Original JSON preserved. Numeric parsing only for unambiguous values; strings and standards retained."
+}
