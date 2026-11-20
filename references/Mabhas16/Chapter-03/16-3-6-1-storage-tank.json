@@ -1,0 +1,38 @@
+{
+  "table_id": "16-3-6-1-5",
+  "title_fa": "قطر لوله تخلیه مخازن ذخیره آب",
+  "rows": [
+    {
+      "volume_litre": "تا 2500",
+      "diameter_mm": 25,
+      "diameter_in": "1"
+    },
+    {
+      "volume_litre": "2501 تا 5000",
+      "diameter_mm": 40,
+      "diameter_in": "1 1/2"
+    },
+    {
+      "volume_litre": "5001 تا 10000",
+      "diameter_mm": 50,
+      "diameter_in": "2"
+    },
+    {
+      "volume_litre": "10001 تا 20000",
+      "diameter_mm": 65,
+      "diameter_in": "2 1/2"
+    },
+    {
+      "volume_litre": "20001 تا 30000",
+      "diameter_mm": 80,
+      "diameter_in": "3"
+    },
+    {
+      "volume_litre": "بیش از 30000",
+      "diameter_mm": 100,
+      "diameter_in": "4"
+    }
+  ],
+  "source": "user_supplied_photographs_2026-11-20",
+  "validation_status": "transcribed_visual_review_pending"
+}
