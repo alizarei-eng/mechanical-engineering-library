@@ -1,0 +1,145 @@
+{
+  "table_id": "16-7-5-1-a",
+  "chapter": 7,
+  "title_fa": "حداکثر فاصله دو بست مجاور در انواع لوله‌کشی",
+  "units": {
+    "diameter": "mm",
+    "vertical_spacing": "m",
+    "horizontal_spacing": "m"
+  },
+  "columns": [
+    "pipe_material",
+    "nominal_diameter_mm",
+    "nominal_diameter_in",
+    "max_vertical_spacing_m",
+    "max_horizontal_spacing_m"
+  ],
+  "rows": [
+    {
+      "pipe_material": "cast_iron_all",
+      "nominal_diameter_mm": null,
+      "nominal_diameter_in": null,
+      "max_vertical_spacing_m": 3,
+      "max_horizontal_spacing_m": 1.8
+    },
+    {
+      "pipe_material": "galvanized_steel",
+      "nominal_diameter_mm": "<=25",
+      "nominal_diameter_in": "<=1",
+      "max_vertical_spacing_m": 3,
+      "max_horizontal_spacing_m": 2.1
+    },
+    {
+      "pipe_material": "galvanized_steel",
+      "nominal_diameter_mm": "32",
+      "nominal_diameter_in": "1 1/4",
+      "max_vertical_spacing_m": 3,
+      "max_horizontal_spacing_m": 2.1
+    },
+    {
+      "pipe_material": "galvanized_steel",
+      "nominal_diameter_mm": "40-50",
+      "nominal_diameter_in": "1 1/2-2",
+      "max_vertical_spacing_m": 3.7,
+      "max_horizontal_spacing_m": 2.7
+    },
+    {
+      "pipe_material": "galvanized_steel",
+      "nominal_diameter_mm": "65-75",
+      "nominal_diameter_in": "2 1/2-3",
+      "max_vertical_spacing_m": 4.6,
+      "max_horizontal_spacing_m": 3.4
+    },
+    {
+      "pipe_material": "galvanized_steel",
+      "nominal_diameter_mm": "100",
+      "nominal_diameter_in": "4",
+      "max_vertical_spacing_m": 4.6,
+      "max_horizontal_spacing_m": 4.3
+    },
+    {
+      "pipe_material": "copper",
+      "nominal_diameter_mm": "<=25",
+      "nominal_diameter_in": "<=1",
+      "max_vertical_spacing_m": 2.4,
+      "max_horizontal_spacing_m": 1.8
+    },
+    {
+      "pipe_material": "copper",
+      "nominal_diameter_mm": "32-40",
+      "nominal_diameter_in": "1 1/4-1 1/2",
+      "max_vertical_spacing_m": 3,
+      "max_horizontal_spacing_m": 2.4
+    },
+    {
+      "pipe_material": "copper",
+      "nominal_diameter_mm": "50",
+      "nominal_diameter_in": "2",
+      "max_vertical_spacing_m": 3,
+      "max_horizontal_spacing_m": 2.7
+    },
+    {
+      "pipe_material": "copper",
+      "nominal_diameter_mm": "65-100",
+      "nominal_diameter_in": "2 1/2-4",
+      "max_vertical_spacing_m": 3.7,
+      "max_horizontal_spacing_m": 3
+    },
+    {
+      "pipe_material": "PE_PEX",
+      "nominal_diameter_mm": "7-51",
+      "nominal_diameter_in": "1/4-2 1/4",
+      "max_vertical_spacing_m": 1.2,
+      "max_horizontal_spacing_m": 0.5
+    },
+    {
+      "pipe_material": "PEX_AL_PEX",
+      "nominal_diameter_mm": "9-61",
+      "nominal_diameter_in": "3/8-2 1/2",
+      "max_vertical_spacing_m": 1.2,
+      "max_horizontal_spacing_m": 0.8
+    },
+    {
+      "pipe_material": "high_temp_PE_AL",
+      "nominal_diameter_mm": "9-61",
+      "nominal_diameter_in": "3/8-2 1/2",
+      "max_vertical_spacing_m": 1.2,
+      "max_horizontal_spacing_m": 0.8
+    },
+    {
+      "pipe_material": "PVC",
+      "nominal_diameter_mm": "32-40",
+      "nominal_diameter_in": "1 1/4-1 1/2",
+      "max_vertical_spacing_m": 1.2,
+      "max_horizontal_spacing_m": 0.5
+    },
+    {
+      "pipe_material": "PVC",
+      "nominal_diameter_mm": "50",
+      "nominal_diameter_in": "2",
+      "max_vertical_spacing_m": 1.2,
+      "max_horizontal_spacing_m": 0.6
+    },
+    {
+      "pipe_material": "PVC",
+      "nominal_diameter_mm": "75-100",
+      "nominal_diameter_in": "3-4",
+      "max_vertical_spacing_m": 1.8,
+      "max_horizontal_spacing_m": 0.9
+    },
+    {
+      "pipe_material": "PVC",
+      "nominal_diameter_mm": "150",
+      "nominal_diameter_in": "6",
+      "max_vertical_spacing_m": 1.8,
+      "max_horizontal_spacing_m": 1.2
+    }
+  ],
+  "source": "user_uploaded_photo",
+  "verification_status": "visually_transcribed_pending_independent_review",
+  "review_flags": [
+    "Check mixed fraction ranges against original",
+    "Check first cast iron row applies to all diameters",
+    "No independent comparison against official PDF yet"
+  ]
+}
