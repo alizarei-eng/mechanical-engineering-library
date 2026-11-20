@@ -1,0 +1,57 @@
+{
+  "title_fa": "استانداردهای شیرهای فلزی",
+  "rows": [
+    {
+      "standard": "EN",
+      "gate": "EN1171, EN1092",
+      "globe": "EN13789, EN1092",
+      "check": "EN12334"
+    },
+    {
+      "standard": "ISO",
+      "gate": "ISO5996",
+      "globe": "ISO5752",
+      "check": "ISO5752"
+    },
+    {
+      "standard": "JIS",
+      "gate": "JIS B2031",
+      "globe": "JIS B2031",
+      "check": "JIS B2031"
+    },
+    {
+      "standard": "ASME",
+      "gate": "ASME B16.10",
+      "globe": "ASME B16.10",
+      "check": "ASME B16.10"
+    }
+  ],
+  "additional_table": {
+    "title_fa": "استانداردهای شیرهای فلزی (صفحه ۵۴)",
+    "rows": [
+      {
+        "gate": "EN12288",
+        "globe": null,
+        "check": null
+      },
+      {
+        "gate": "BS 5154",
+        "globe": "BS 5154",
+        "check": "BS 5154"
+      },
+      {
+        "gate": "MSS SP-80",
+        "globe": "MSS SP-80",
+        "check": "MSS SP-80"
+      },
+      {
+        "gate": "JIS B2011",
+        "globe": "JIS B2011",
+        "check": "JIS B2011"
+      }
+    ]
+  },
+  "note": "دو تصویر شیرآلات حاوی جداول با استانداردهای متفاوت‌اند؛ بدون فرض یکسان بودن جنس و کاربرد در یک فایل با دو بخش مستقل حفظ شده‌اند.",
+  "source": "user_supplied_photographs_2026-11-20",
+  "validation_status": "transcribed_visual_review_pending"
+}
