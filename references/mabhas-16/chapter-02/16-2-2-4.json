@@ -1,0 +1,222 @@
+{
+  "table_id": "16-2-2-4",
+  "title": "استانداردهای ساخت و آزمایش لوازم بهداشتی",
+  "chapter": 2,
+  "source": "user_photos_2_and_3",
+  "validation_status": "visual_transcription_requires_original_standard_number_verification",
+  "columns": [
+    "type",
+    "material",
+    "ISIRI",
+    "DIN-EN",
+    "BS-EN",
+    "BS"
+  ],
+  "row_count": 22,
+  "rows": [
+    {
+      "row": 1,
+      "type": "دستشویی",
+      "material": "چینی",
+      "ISIRI": "696",
+      "DIN_EN": "31-14688",
+      "BS_EN": null,
+      "BS": "1188-3402"
+    },
+    {
+      "row": 2,
+      "type": "توالت غربی",
+      "material": "چینی",
+      "ISIRI": "696",
+      "DIN_EN": "33-34-997",
+      "BS_EN": null,
+      "BS": "3402"
+    },
+    {
+      "row": 3,
+      "type": "توالت شرقی",
+      "material": "چینی",
+      "ISIRI": "696",
+      "DIN_EN": null,
+      "BS_EN": null,
+      "BS": null
+    },
+    {
+      "row": 4,
+      "type": "فلاش تانک",
+      "material": null,
+      "ISIRI": null,
+      "DIN_EN": null,
+      "BS_EN": null,
+      "BS": "1125"
+    },
+    {
+      "row": 5,
+      "type": "شیر فلوتروری",
+      "material": null,
+      "ISIRI": null,
+      "DIN_EN": null,
+      "BS_EN": null,
+      "BS": "1212"
+    },
+    {
+      "row": 6,
+      "type": "زیردوشی",
+      "material": "پلاستیکی",
+      "ISIRI": "3647",
+      "DIN_EN": "249-251",
+      "BS_EN": "251",
+      "BS": null
+    },
+    {
+      "row": 7,
+      "type": "سردوش",
+      "material": "برنجی با روکش نیکل کرم یا ABS",
+      "ISIRI": "6680",
+      "DIN_EN": "1112",
+      "BS_EN": "1112",
+      "BS": "6440-4"
+    },
+    {
+      "row": 8,
+      "type": "شیلنگ دوش",
+      "material": "پلی اتیلن مشبک (PEX)",
+      "ISIRI": "6681",
+      "DIN_EN": "1113",
+      "BS_EN": "1113",
+      "BS": "6440-4"
+    },
+    {
+      "row": 9,
+      "type": "وان",
+      "material": "پلاستیکی",
+      "ISIRI": "3361",
+      "DIN_EN": "198",
+      "BS_EN": null,
+      "BS": null
+    },
+    {
+      "row": 10,
+      "type": "وان",
+      "material": "چدنی لعاب‌دار",
+      "ISIRI": null,
+      "DIN_EN": "232",
+      "BS_EN": "232",
+      "BS": null
+    },
+    {
+      "row": 11,
+      "type": "وان",
+      "material": "فولادی لعاب‌دار",
+      "ISIRI": null,
+      "DIN_EN": "232",
+      "BS_EN": "232",
+      "BS": null
+    },
+    {
+      "row": 12,
+      "type": "سینک",
+      "material": "فولادی زنگ‌ناپذیر",
+      "ISIRI": null,
+      "DIN_EN": "13310",
+      "BS_EN": "13310",
+      "BS": null
+    },
+    {
+      "row": 13,
+      "type": "سینک",
+      "material": "سفالی",
+      "ISIRI": null,
+      "DIN_EN": null,
+      "BS_EN": null,
+      "BS": "1206"
+    },
+    {
+      "row": 14,
+      "type": "یورینال",
+      "material": "چینی",
+      "ISIRI": "696",
+      "DIN_EN": "13407",
+      "BS_EN": null,
+      "BS": "5520"
+    },
+    {
+      "row": 15,
+      "type": "یورینال",
+      "material": "فولادی زنگ‌ناپذیر",
+      "ISIRI": null,
+      "DIN_EN": null,
+      "BS_EN": null,
+      "BS": "4880-1"
+    },
+    {
+      "row": 16,
+      "type": "آبخوری",
+      "material": null,
+      "ISIRI": "2526",
+      "DIN_EN": null,
+      "BS_EN": null,
+      "BS": null
+    },
+    {
+      "row": 17,
+      "type": "کاهنده جریان",
+      "material": "برنجی با روکش نیکل کرم",
+      "ISIRI": "6678",
+      "DIN_EN": "246",
+      "BS_EN": null,
+      "BS": null
+    },
+    {
+      "row": 18,
+      "type": "شیر مخلوط کلاسیک",
+      "material": "برنجی با روکش نیکل کرم",
+      "ISIRI": "1546",
+      "DIN_EN": "200",
+      "BS_EN": null,
+      "BS": null
+    },
+    {
+      "row": 19,
+      "type": "شیر مخلوط اهرمی",
+      "material": "برنجی با روکش نیکل کرم",
+      "ISIRI": "6679",
+      "DIN_EN": "817",
+      "BS_EN": null,
+      "BS": null
+    },
+    {
+      "row": 20,
+      "type": "شیر قطع خودکار (فشاری زمان‌دار)",
+      "material": "برنجی با روکش نیکل کرم",
+      "ISIRI": "13766",
+      "DIN_EN": "816",
+      "BS_EN": "816",
+      "BS": null
+    },
+    {
+      "row": 21,
+      "type": "شیر الکترونیکی",
+      "material": "برنجی با روکش نیکل کرم",
+      "ISIRI": "14122",
+      "DIN_EN": "15091",
+      "BS_EN": "15091",
+      "BS": null
+    },
+    {
+      "row": 22,
+      "type": "شیلنگ قابل انعطاف",
+      "material": "پلی اتیلن مشبک (PEX)",
+      "ISIRI": "14837",
+      "DIN_EN": "13618",
+      "BS_EN": "13618",
+      "BS": null
+    }
+  ],
+  "limitations": [
+    "Null denotes a printed dash, not a claim that no standard exists.",
+    "Standard numbers are strings; hyphens and compound codes must be retained.",
+    "This is a historical table transcription, not a verification that referenced standards remain current.",
+    "Some printed numerals require independent confirmation against the book PDF before regulatory use."
+  ]
+}
