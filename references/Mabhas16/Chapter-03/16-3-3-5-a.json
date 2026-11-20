@@ -1,0 +1,51 @@
+{
+  "table_id": "16-3-3-5-a",
+  "title_fa": "حداکثر فشار و مقدار مصرف آب در لوازم بهداشتی",
+  "max_pressure": {
+    "bar": 4,
+    "psi": 60
+  },
+  "rows": [
+    {
+      "fixture": "دستشویی خصوصی",
+      "litre_per_min": 6,
+      "gallon_per_min": 1.6
+    },
+    {
+      "fixture": "دستشویی عمومی",
+      "litre_per_min": 2,
+      "gallon_per_min": 0.5
+    },
+    {
+      "fixture": "دستشویی با شیر برقی خودکار",
+      "litre_per_min": 6,
+      "gallon_per_min": 1.6
+    },
+    {
+      "fixture": "دوش",
+      "litre_per_min": 8,
+      "gallon_per_min": 2.1
+    },
+    {
+      "fixture": "سینک",
+      "litre_per_min": 8,
+      "gallon_per_min": 2.1
+    },
+    {
+      "fixture": "یورینال",
+      "litre_per_min": 2,
+      "gallon_per_min": null
+    },
+    {
+      "fixture": "توالت",
+      "litre_per_min": null,
+      "gallon_per_min": null
+    },
+    {
+      "fixture": "شیر آفتابه",
+      "litre_per_min": 6,
+      "gallon_per_min": 1.6
+    }
+  ],
+  "verification": "partial transcription; rows with multiple operating modes require manual verification; not approved"
+}
