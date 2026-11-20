@@ -1,0 +1,102 @@
+{
+  "table_id": "16-3-3-4-a",
+  "title_fa": "حداقل قطر نامی لوله های آبرسانی به لوازم بهداشتی مختلف",
+  "rows": [
+    {
+      "fixture": "وان",
+      "diameter_mm": 15,
+      "diameter_in": "1/2"
+    },
+    {
+      "fixture": "بیده",
+      "diameter_mm": 10,
+      "diameter_in": "3/8"
+    },
+    {
+      "fixture": "سینک یا سینی",
+      "diameter_mm": 15,
+      "diameter_in": "1/2"
+    },
+    {
+      "fixture": "ماشین ظرفشویی خانگی",
+      "diameter_mm": 15,
+      "diameter_in": "1/2"
+    },
+    {
+      "fixture": "آبخوری",
+      "diameter_mm": 10,
+      "diameter_in": "3/8"
+    },
+    {
+      "fixture": "شیر سرشیلنگی",
+      "diameter_mm": 15,
+      "diameter_in": "1/2"
+    },
+    {
+      "fixture": "سینک آشپزخانه صنعتی",
+      "diameter_mm": 20,
+      "diameter_in": "3/4"
+    },
+    {
+      "fixture": "سینک آشپزخانه خانگی",
+      "diameter_mm": 15,
+      "diameter_in": "1/2"
+    },
+    {
+      "fixture": "لگن رختشویی یک، دو، سه خانه",
+      "diameter_mm": 15,
+      "diameter_in": "1/2"
+    },
+    {
+      "fixture": "دستشویی",
+      "diameter_mm": 10,
+      "diameter_in": "3/8"
+    },
+    {
+      "fixture": "دوش با یک سردوش",
+      "diameter_mm": 15,
+      "diameter_in": "1/2"
+    },
+    {
+      "fixture": "سینک با شیلنگ و افشانک",
+      "diameter_mm": 20,
+      "diameter_in": "3/4"
+    },
+    {
+      "fixture": "سینک شستشوی عمومی",
+      "diameter_mm": 15,
+      "diameter_in": "1/2"
+    },
+    {
+      "fixture": "یورینال با فلاش تانک",
+      "diameter_mm": 15,
+      "diameter_in": "1/2"
+    },
+    {
+      "fixture": "یورینال با فلاش والو",
+      "diameter_mm": 20,
+      "diameter_in": "3/4"
+    },
+    {
+      "fixture": "شیر برداشت آب",
+      "diameter_mm": 15,
+      "diameter_in": "1/2"
+    },
+    {
+      "fixture": "شیر آفتابه",
+      "diameter_mm": 15,
+      "diameter_in": "1/2"
+    },
+    {
+      "fixture": "توالت با فلاش تانک",
+      "diameter_mm": 15,
+      "diameter_in": "1/2"
+    },
+    {
+      "fixture": "توالت با فلاش والو",
+      "diameter_mm": 25,
+      "diameter_in": "1"
+    }
+  ],
+  "verification": "transcribed_from_user_photo; visually_checked; engineering_use_requires_final_source_review"
+}
