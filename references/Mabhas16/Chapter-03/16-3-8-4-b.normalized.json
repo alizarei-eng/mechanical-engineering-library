@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "source_file": "references/Mabhas16/Chapter-03/16-3-8-4-b.json",
+  "source_validation": "not_verified",
+  "data": {
+    "table_number": "16-3-8-4-b",
+    "title_fa": "حداقل ضخامت عایق لوله‌های آب گرم مصرفی (میلی‌متر)",
+    "chapter": 3,
+    "source": "تصویر صفحه چاپی ارسال‌شده توسط کاربر",
+    "verification_status": "review_required",
+    "ambient_temperature_c": 24,
+    "max_hot_water_temperature_c": 60,
+    "insulation_thermal_conductivity_w_m_k": 0.034,
+    "rows": [
+      {
+        "nominal_pipe_diameter_mm": {
+          "id": 1,
+          "label_fa": "انشعاب تا 50"
+        },
+        "minimum_insulation_thickness_mm": 15
+      },
+      {
+        "nominal_pipe_diameter_mm": {
+          "id": 2,
+          "label_fa": "25 تا 50"
+        },
+        "minimum_insulation_thickness_mm": 15,
+        "review_note": "مرز پایین بازه در تصویر نیازمند بازبینی است؛ متن ممکن است 32 باشد."
+      },
+      {
+        "nominal_pipe_diameter_mm": {
+          "id": 3,
+          "label_fa": "65 و بیشتر"
+        },
+        "minimum_insulation_thickness_mm": 40
+      },
+      {
+        "nominal_pipe_diameter_mm": {
+          "id": 2,
+          "label_fa": "25 تا 50"
+        },
+        "minimum_insulation_thickness_mm": 25,
+        "review_note": "بازه باید با تصویر تطبیق مجدد شود"
+      }
+    ],
+    "footnote_fa": "ضخامت عایق لوله انشعاب تا قطر 50 میلی‌متر برای حالتی مقرر شده است که طول انشعاب از 3/6 متر بیشتر نباشد.",
+    "review_note": "ترتیب و مرزبندی چهار ستون قطر لوله در بازبینی نهایی با نسخه چاپی کنترل شود."
+  },
+  "dictionaries": {
+    "nominal_pipe_diameter_mm": {
+      "انشعاب تا 50": 1,
+      "25 تا 50": 2,
+      "65 و بیشتر": 3
+    }
+  },
+  "conversion_note": "Source retained; ambiguous expressions preserved."
+}
