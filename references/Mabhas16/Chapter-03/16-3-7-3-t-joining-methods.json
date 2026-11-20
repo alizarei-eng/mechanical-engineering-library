@@ -1,0 +1,72 @@
+{
+  "table_id": "16-3-7-3-t",
+  "title_fa": "کاربرد انواع مختلف روش‌های جلوگیری از برگشت جریان",
+  "rows": [
+    {
+      "method": "فاصله هوایی",
+      "pollution": "ظاهری و غیر بهداشتی",
+      "application": "فشار معکوس - مکش سیفونی",
+      "standards": [
+        "ASME A112.1.2",
+        "ASME A112.1.3"
+      ]
+    },
+    {
+      "method": "نصب شیر اطمینان اختلاف فشار بین دو شیر یکطرفه",
+      "pollution": "ظاهری و غیر بهداشتی",
+      "application": "فشار معکوس - مکش سیفونی",
+      "standards": [
+        "ASSE 1013",
+        "AWWA C511",
+        "CSA B64.4"
+      ]
+    },
+    {
+      "method": "نصب شیر یکطرفه دوتایی",
+      "pollution": "ظاهری",
+      "application": "فشار معکوس - مکش سیفونی",
+      "standards": [
+        "ASSE 1015",
+        "AWWA C510"
+      ]
+    },
+    {
+      "method": "نصب شیر یکطرفه دوتایی با شیر تخلیه بین آنها",
+      "pollution": "ظاهری",
+      "application": "فشار معکوس - مکش سیفونی",
+      "standards": [
+        "ASSE 1012",
+        "CSA B64.3"
+      ]
+    },
+    {
+      "method": "نصب خلا شکن اتمسفریک",
+      "pollution": "ظاهری و غیر بهداشتی",
+      "application": "فقط مکش سیفونی",
+      "standards": [
+        "ASSE 1001",
+        "CSA B64.1.1"
+      ]
+    },
+    {
+      "method": "نصب خلا شکن فشاری",
+      "pollution": "ظاهری و غیر بهداشتی",
+      "application": "فقط مکش سیفونی",
+      "standards": [
+        "ASSE 1020",
+        "CSA B64.1.2"
+      ]
+    },
+    {
+      "method": "نصب خلا شکن برای شیر سرشیلنگی",
+      "pollution": "ظاهری و غیر بهداشتی",
+      "application": "فشار معکوس - مکش سیفونی",
+      "standards": [
+        "ASSE 1011",
+        "CSA B64.2"
+      ]
+    }
+  ],
+  "source": "user_supplied_photographs_2026-11-20",
+  "validation_status": "transcribed_visual_review_pending"
+}
