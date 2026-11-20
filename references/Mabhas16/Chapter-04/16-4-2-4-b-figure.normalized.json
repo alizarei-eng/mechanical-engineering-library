@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0",
+  "source_file": "references/Mabhas16/Chapter-04/16-4-2-4-b-figure.json",
+  "source_validation": "not_verified",
+  "data": {
+    "id": "16-4-2-4-b-figure",
+    "type": "figure_data",
+    "title_fa": "اتصال پایین‌ترین شاخه افقی به لوله قائم",
+    "source_page": 88,
+    "rows": [
+      {
+        "building_floors": {
+          "id": 1,
+          "label_fa": "سه طبقه و کمتر"
+        },
+        "minimum_L_mm": 450
+      },
+      {
+        "building_floors": {
+          "id": 2,
+          "label_fa": "چهار و پنج طبقه"
+        },
+        "minimum_L_mm": 750
+      },
+      {
+        "building_floors": {
+          "id": 3,
+          "label_fa": "شش طبقه و بیشتر"
+        },
+        "minimum_L": {
+          "id": 1,
+          "label_fa": "به اندازه ارتفاع یک طبقه"
+        }
+      }
+    ],
+    "verification_status": "transcribed_from_user_photo",
+    "note": "این مورد شکل است، نه جدول شماره‌دار مستقل؛ اطلاعات داخل شکل استخراج شده است."
+  },
+  "dictionaries": {
+    "building_floors": {
+      "سه طبقه و کمتر": 1,
+      "چهار و پنج طبقه": 2,
+      "شش طبقه و بیشتر": 3
+    },
+    "minimum_L": {
+      "به اندازه ارتفاع یک طبقه": 1
+    }
+  },
+  "conversion_note": "Source retained; ambiguous expressions preserved."
+}
