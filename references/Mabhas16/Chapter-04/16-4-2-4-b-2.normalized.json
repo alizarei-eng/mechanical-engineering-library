@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "source_file": "references/Mabhas16/Chapter-04/16-4-2-4-b-2.json",
+  "source_validation": "not_verified",
+  "data": {
+    "id": "16-4-2-4-b-2",
+    "title_fa": "حداقل شیب لوله‌های افقی فاضلاب",
+    "rows": [
+      {
+        "nominal_diameter_mm": {
+          "id": 1,
+          "label_fa": "تا 65"
+        },
+        "nominal_diameter_in": {
+          "id": 1,
+          "label_fa": "تا 2 1/2"
+        },
+        "minimum_slope_percent": 2,
+        "minimum_slope_in_per_ft": "1/4"
+      },
+      {
+        "nominal_diameter_mm": {
+          "id": 2,
+          "label_fa": "80 تا 150"
+        },
+        "nominal_diameter_in": {
+          "id": 2,
+          "label_fa": "3 تا 6"
+        },
+        "minimum_slope_percent": 1,
+        "minimum_slope_in_per_ft": "1/8"
+      },
+      {
+        "nominal_diameter_mm": {
+          "id": 3,
+          "label_fa": "200 و بزرگتر"
+        },
+        "nominal_diameter_in": {
+          "id": 3,
+          "label_fa": "8 و بزرگتر"
+        },
+        "minimum_slope_percent": 0.5,
+        "minimum_slope_in_per_ft": "1/16"
+      }
+    ],
+    "verification_status": "transcribed_from_user_photo"
+  },
+  "dictionaries": {
+    "nominal_diameter_mm": {
+      "تا 65": 1,
+      "80 تا 150": 2,
+      "200 و بزرگتر": 3
+    },
+    "nominal_diameter_in": {
+      "تا 2 1/2": 1,
+      "3 تا 6": 2,
+      "8 و بزرگتر": 3
+    }
+  },
+  "conversion_note": "Source retained; ambiguous expressions preserved."
+}
