@@ -1,0 +1,202 @@
+{
+  "schema_version": "2.0",
+  "source_file": "references/mabhas-16/chapter-05/tables.json",
+  "source_validation": "extracted_unverified",
+  "edition": "ویرایش چهارم، چاپ ۱۴۰۲",
+  "tables": [
+    {
+      "table_id": "16-5-2-5-t",
+      "title_fa": "حداکثر فاصله اتصال لوله هواکش تا سیفون",
+      "page": 108,
+      "edition": "1396",
+      "columns": [
+        "nominal_diameter_inch",
+        "nominal_diameter_mm",
+        "drainage_pipe_slope_percent",
+        "maximum_vent_connection_distance_m"
+      ],
+      "rows": [
+        {
+          "row_id": 1,
+          "values": [
+            2,
+            50,
+            2,
+            1.8
+          ]
+        },
+        {
+          "row_id": 2,
+          "values": [
+            3,
+            80,
+            2,
+            3
+          ]
+        },
+        {
+          "row_id": 3,
+          "values": [
+            4,
+            100,
+            2,
+            4
+          ]
+        }
+      ],
+      "review_flags": [],
+      "source_rows_preserved": true
+    },
+    {
+      "table_id": "16-5-2-7-alef",
+      "title_fa": "قطر اسمی لوله هواکش تر بر حسب مقدار DFU",
+      "page": 109,
+      "edition": "1396",
+      "columns": [
+        "nominal_diameter_mm",
+        "nominal_diameter_inch",
+        "maximum_DFU"
+      ],
+      "rows": [
+        {
+          "row_id": 1,
+          "values": [
+            50,
+            2,
+            1
+          ]
+        },
+        {
+          "row_id": 2,
+          "values": [
+            80,
+            3,
+            "6 (بدون فاضلاب توالت)"
+          ]
+        },
+        {
+          "row_id": 3,
+          "values": [
+            100,
+            4,
+            12
+          ]
+        }
+      ],
+      "review_flags": [],
+      "source_rows_preserved": true
+    },
+    {
+      "table_id": "16-5-2-8-t",
+      "title_fa": "اندازه‌گذاری لوله قائم مشترک فاضلاب و هواکش",
+      "page": 110,
+      "edition": "1396",
+      "columns": null,
+      "rows": [
+        {
+          "row_id": 1,
+          "values": [
+            4,
+            2,
+            50
+          ]
+        },
+        {
+          "row_id": 2,
+          "values": [
+            24,
+            3,
+            80
+          ]
+        },
+        {
+          "row_id": 3,
+          "values": [
+            50,
+            4,
+            100
+          ]
+        },
+        {
+          "row_id": 4,
+          "values": [
+            75,
+            5,
+            125
+          ]
+        },
+        {
+          "row_id": 5,
+          "values": [
+            100,
+            6,
+            150
+          ]
+        }
+      ],
+      "review_flags": [
+        "Missing column definitions: positional values retained; requires manual schema mapping"
+      ],
+      "source_rows_preserved": true
+    },
+    {
+      "table_id": "16-5-2-10-t",
+      "title_fa": "اندازه‌گذاری لوله در سیستم مشترک فاضلاب و هواکش",
+      "page": 112,
+      "edition": "1396",
+      "columns": null,
+      "rows": [
+        {
+          "row_id": 1,
+          "values": [
+            3,
+            4,
+            2,
+            50
+          ]
+        },
+        {
+          "row_id": 2,
+          "values": [
+            12,
+            31,
+            3,
+            80
+          ]
+        },
+        {
+          "row_id": 3,
+          "values": [
+            20,
+            50,
+            4,
+            100
+          ]
+        },
+        {
+          "row_id": 4,
+          "values": [
+            160,
+            250,
+            5,
+            125
+          ]
+        },
+        {
+          "row_id": 5,
+          "values": [
+            360,
+            575,
+            6,
+            150
+          ]
+        }
+      ],
+      "review_flags": [
+        "Missing column definitions: positional values retained; requires manual schema mapping"
+      ],
+      "source_rows_preserved": true
+    }
+  ],
+  "conversion_note": "Only unambiguous numeric strings converted; explanatory values retained; source JSON unchanged."
+}
