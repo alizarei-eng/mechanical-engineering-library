@@ -1,0 +1,188 @@
+{
+  "schema_version": "2.0",
+  "source_file": "references/Mabhas16/Chapter-03/16-3-3-4-a.json",
+  "source_validation": "transcribed_from_user_photo; visually_checked; engineering_use_requires_final_source_review",
+  "data": {
+    "table_id": "16-3-3-4-a",
+    "title_fa": "حداقل قطر نامی لوله های آبرسانی به لوازم بهداشتی مختلف",
+    "rows": [
+      {
+        "fixture": {
+          "id": 1,
+          "label_fa": "وان"
+        },
+        "diameter_mm": 15,
+        "diameter_in": "1/2"
+      },
+      {
+        "fixture": {
+          "id": 2,
+          "label_fa": "بیده"
+        },
+        "diameter_mm": 10,
+        "diameter_in": "3/8"
+      },
+      {
+        "fixture": {
+          "id": 3,
+          "label_fa": "سینک یا سینی"
+        },
+        "diameter_mm": 15,
+        "diameter_in": "1/2"
+      },
+      {
+        "fixture": {
+          "id": 4,
+          "label_fa": "ماشین ظرفشویی خانگی"
+        },
+        "diameter_mm": 15,
+        "diameter_in": "1/2"
+      },
+      {
+        "fixture": {
+          "id": 5,
+          "label_fa": "آبخوری"
+        },
+        "diameter_mm": 10,
+        "diameter_in": "3/8"
+      },
+      {
+        "fixture": {
+          "id": 6,
+          "label_fa": "شیر سرشیلنگی"
+        },
+        "diameter_mm": 15,
+        "diameter_in": "1/2"
+      },
+      {
+        "fixture": {
+          "id": 7,
+          "label_fa": "سینک آشپزخانه صنعتی"
+        },
+        "diameter_mm": 20,
+        "diameter_in": "3/4"
+      },
+      {
+        "fixture": {
+          "id": 8,
+          "label_fa": "سینک آشپزخانه خانگی"
+        },
+        "diameter_mm": 15,
+        "diameter_in": "1/2"
+      },
+      {
+        "fixture": {
+          "id": 9,
+          "label_fa": "لگن رختشویی یک، دو، سه خانه"
+        },
+        "diameter_mm": 15,
+        "diameter_in": "1/2"
+      },
+      {
+        "fixture": {
+          "id": 10,
+          "label_fa": "دستشویی"
+        },
+        "diameter_mm": 10,
+        "diameter_in": "3/8"
+      },
+      {
+        "fixture": {
+          "id": 11,
+          "label_fa": "دوش با یک سردوش"
+        },
+        "diameter_mm": 15,
+        "diameter_in": "1/2"
+      },
+      {
+        "fixture": {
+          "id": 12,
+          "label_fa": "سینک با شیلنگ و افشانک"
+        },
+        "diameter_mm": 20,
+        "diameter_in": "3/4"
+      },
+      {
+        "fixture": {
+          "id": 13,
+          "label_fa": "سینک شستشوی عمومی"
+        },
+        "diameter_mm": 15,
+        "diameter_in": "1/2"
+      },
+      {
+        "fixture": {
+          "id": 14,
+          "label_fa": "یورینال با فلاش تانک"
+        },
+        "diameter_mm": 15,
+        "diameter_in": "1/2"
+      },
+      {
+        "fixture": {
+          "id": 15,
+          "label_fa": "یورینال با فلاش والو"
+        },
+        "diameter_mm": 20,
+        "diameter_in": "3/4"
+      },
+      {
+        "fixture": {
+          "id": 16,
+          "label_fa": "شیر برداشت آب"
+        },
+        "diameter_mm": 15,
+        "diameter_in": "1/2"
+      },
+      {
+        "fixture": {
+          "id": 17,
+          "label_fa": "شیر آفتابه"
+        },
+        "diameter_mm": 15,
+        "diameter_in": "1/2"
+      },
+      {
+        "fixture": {
+          "id": 18,
+          "label_fa": "توالت با فلاش تانک"
+        },
+        "diameter_mm": 15,
+        "diameter_in": "1/2"
+      },
+      {
+        "fixture": {
+          "id": 19,
+          "label_fa": "توالت با فلاش والو"
+        },
+        "diameter_mm": 25,
+        "diameter_in": "1"
+      }
+    ],
+    "verification": "transcribed_from_user_photo; visually_checked; engineering_use_requires_final_source_review"
+  },
+  "dictionaries": {
+    "fixture": {
+      "وان": 1,
+      "بیده": 2,
+      "سینک یا سینی": 3,
+      "ماشین ظرفشویی خانگی": 4,
+      "آبخوری": 5,
+      "شیر سرشیلنگی": 6,
+      "سینک آشپزخانه صنعتی": 7,
+      "سینک آشپزخانه خانگی": 8,
+      "لگن رختشویی یک، دو، سه خانه": 9,
+      "دستشویی": 10,
+      "دوش با یک سردوش": 11,
+      "سینک با شیلنگ و افشانک": 12,
+      "سینک شستشوی عمومی": 13,
+      "یورینال با فلاش تانک": 14,
+      "یورینال با فلاش والو": 15,
+      "شیر برداشت آب": 16,
+      "شیر آفتابه": 17,
+      "توالت با فلاش تانک": 18,
+      "توالت با فلاش والو": 19
+    }
+  },
+  "conversion_note": "Original JSON preserved. Numeric parsing only for unambiguous values; strings and standards retained."
+}
