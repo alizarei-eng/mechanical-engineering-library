@@ -1,0 +1,39 @@
+{
+  "table_id": "16-3-4-3-2-b",
+  "title_fa": "شرایط کارکرد لوله و دیگر اجزای لوله کشی توزیع آب مصرفی",
+  "pressure_range_bar": [
+    0,
+    10
+  ],
+  "rows": [
+    {
+      "service": "cold",
+      "max_temperature_c": 25,
+      "duration_years": 40
+    },
+    {
+      "service": "cold",
+      "max_temperature_c": 40,
+      "duration_years": 10,
+      "condition": "additional"
+    },
+    {
+      "service": "hot",
+      "max_temperature_c": 60,
+      "duration_years": 40
+    },
+    {
+      "service": "hot",
+      "max_temperature_c": 80,
+      "duration_years": 10,
+      "condition": "additional"
+    },
+    {
+      "service": "hot",
+      "max_temperature_c": 95,
+      "duration_hours": 100,
+      "condition": "additional"
+    }
+  ],
+  "verification": "visually checked against photographed table; interpretation of additional temperature durations needs review"
+}
