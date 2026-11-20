@@ -1,0 +1,254 @@
+{
+  "schema_version": "2.0",
+  "source_file": "references/Mabhas16/Chapter-07/16-7-5-1-a.json",
+  "source_validation": "not_verified",
+  "data": {
+    "table_id": "16-7-5-1-a",
+    "chapter": 7,
+    "title_fa": "حداکثر فاصله دو بست مجاور در انواع لوله‌کشی",
+    "units": {
+      "diameter": "mm",
+      "vertical_spacing": "m",
+      "horizontal_spacing": "m"
+    },
+    "columns": [
+      "pipe_material",
+      "nominal_diameter_mm",
+      "nominal_diameter_in",
+      "max_vertical_spacing_m",
+      "max_horizontal_spacing_m"
+    ],
+    "rows": [
+      {
+        "row_id": 1,
+        "material_id": 1,
+        "pipe_material": "cast_iron_all",
+        "nominal_diameter_mm": null,
+        "nominal_diameter_in": null,
+        "max_vertical_spacing_m": 3,
+        "max_horizontal_spacing_m": 1.8,
+        "diameter_min_mm": null,
+        "diameter_max_mm": null,
+        "diameter_operator": "all"
+      },
+      {
+        "row_id": 2,
+        "material_id": 2,
+        "pipe_material": "galvanized_steel",
+        "nominal_diameter_mm": "<=25",
+        "nominal_diameter_in": "<=1",
+        "max_vertical_spacing_m": 3,
+        "max_horizontal_spacing_m": 2.1,
+        "diameter_min_mm": null,
+        "diameter_max_mm": 25,
+        "diameter_operator": "lte"
+      },
+      {
+        "row_id": 3,
+        "material_id": 2,
+        "pipe_material": "galvanized_steel",
+        "nominal_diameter_mm": 32,
+        "nominal_diameter_in": "1 1/4",
+        "max_vertical_spacing_m": 3,
+        "max_horizontal_spacing_m": 2.1,
+        "diameter_min_mm": 32,
+        "diameter_max_mm": 32,
+        "diameter_operator": "eq"
+      },
+      {
+        "row_id": 4,
+        "material_id": 2,
+        "pipe_material": "galvanized_steel",
+        "nominal_diameter_mm": "40-50",
+        "nominal_diameter_in": "1 1/2-2",
+        "max_vertical_spacing_m": 3.7,
+        "max_horizontal_spacing_m": 2.7,
+        "diameter_min_mm": 40,
+        "diameter_max_mm": 50,
+        "diameter_operator": "between"
+      },
+      {
+        "row_id": 5,
+        "material_id": 2,
+        "pipe_material": "galvanized_steel",
+        "nominal_diameter_mm": "65-75",
+        "nominal_diameter_in": "2 1/2-3",
+        "max_vertical_spacing_m": 4.6,
+        "max_horizontal_spacing_m": 3.4,
+        "diameter_min_mm": 65,
+        "diameter_max_mm": 75,
+        "diameter_operator": "between"
+      },
+      {
+        "row_id": 6,
+        "material_id": 2,
+        "pipe_material": "galvanized_steel",
+        "nominal_diameter_mm": 100,
+        "nominal_diameter_in": "4",
+        "max_vertical_spacing_m": 4.6,
+        "max_horizontal_spacing_m": 4.3,
+        "diameter_min_mm": 100,
+        "diameter_max_mm": 100,
+        "diameter_operator": "eq"
+      },
+      {
+        "row_id": 7,
+        "material_id": 3,
+        "pipe_material": "copper",
+        "nominal_diameter_mm": "<=25",
+        "nominal_diameter_in": "<=1",
+        "max_vertical_spacing_m": 2.4,
+        "max_horizontal_spacing_m": 1.8,
+        "diameter_min_mm": null,
+        "diameter_max_mm": 25,
+        "diameter_operator": "lte"
+      },
+      {
+        "row_id": 8,
+        "material_id": 3,
+        "pipe_material": "copper",
+        "nominal_diameter_mm": "32-40",
+        "nominal_diameter_in": "1 1/4-1 1/2",
+        "max_vertical_spacing_m": 3,
+        "max_horizontal_spacing_m": 2.4,
+        "diameter_min_mm": 32,
+        "diameter_max_mm": 40,
+        "diameter_operator": "between"
+      },
+      {
+        "row_id": 9,
+        "material_id": 3,
+        "pipe_material": "copper",
+        "nominal_diameter_mm": 50,
+        "nominal_diameter_in": "2",
+        "max_vertical_spacing_m": 3,
+        "max_horizontal_spacing_m": 2.7,
+        "diameter_min_mm": 50,
+        "diameter_max_mm": 50,
+        "diameter_operator": "eq"
+      },
+      {
+        "row_id": 10,
+        "material_id": 3,
+        "pipe_material": "copper",
+        "nominal_diameter_mm": "65-100",
+        "nominal_diameter_in": "2 1/2-4",
+        "max_vertical_spacing_m": 3.7,
+        "max_horizontal_spacing_m": 3,
+        "diameter_min_mm": 65,
+        "diameter_max_mm": 100,
+        "diameter_operator": "between"
+      },
+      {
+        "row_id": 11,
+        "material_id": 4,
+        "pipe_material": "PE_PEX",
+        "nominal_diameter_mm": "7-51",
+        "nominal_diameter_in": "1/4-2 1/4",
+        "max_vertical_spacing_m": 1.2,
+        "max_horizontal_spacing_m": 0.5,
+        "diameter_min_mm": 7,
+        "diameter_max_mm": 51,
+        "diameter_operator": "between"
+      },
+      {
+        "row_id": 12,
+        "material_id": 5,
+        "pipe_material": "PEX_AL_PEX",
+        "nominal_diameter_mm": "9-61",
+        "nominal_diameter_in": "3/8-2 1/2",
+        "max_vertical_spacing_m": 1.2,
+        "max_horizontal_spacing_m": 0.8,
+        "diameter_min_mm": 9,
+        "diameter_max_mm": 61,
+        "diameter_operator": "between"
+      },
+      {
+        "row_id": 13,
+        "material_id": 6,
+        "pipe_material": "high_temp_PE_AL",
+        "nominal_diameter_mm": "9-61",
+        "nominal_diameter_in": "3/8-2 1/2",
+        "max_vertical_spacing_m": 1.2,
+        "max_horizontal_spacing_m": 0.8,
+        "diameter_min_mm": 9,
+        "diameter_max_mm": 61,
+        "diameter_operator": "between"
+      },
+      {
+        "row_id": 14,
+        "material_id": 7,
+        "pipe_material": "PVC",
+        "nominal_diameter_mm": "32-40",
+        "nominal_diameter_in": "1 1/4-1 1/2",
+        "max_vertical_spacing_m": 1.2,
+        "max_horizontal_spacing_m": 0.5,
+        "diameter_min_mm": 32,
+        "diameter_max_mm": 40,
+        "diameter_operator": "between"
+      },
+      {
+        "row_id": 15,
+        "material_id": 7,
+        "pipe_material": "PVC",
+        "nominal_diameter_mm": 50,
+        "nominal_diameter_in": "2",
+        "max_vertical_spacing_m": 1.2,
+        "max_horizontal_spacing_m": 0.6,
+        "diameter_min_mm": 50,
+        "diameter_max_mm": 50,
+        "diameter_operator": "eq"
+      },
+      {
+        "row_id": 16,
+        "material_id": 7,
+        "pipe_material": "PVC",
+        "nominal_diameter_mm": "75-100",
+        "nominal_diameter_in": "3-4",
+        "max_vertical_spacing_m": 1.8,
+        "max_horizontal_spacing_m": 0.9,
+        "diameter_min_mm": 75,
+        "diameter_max_mm": 100,
+        "diameter_operator": "between"
+      },
+      {
+        "row_id": 17,
+        "material_id": 7,
+        "pipe_material": "PVC",
+        "nominal_diameter_mm": 150,
+        "nominal_diameter_in": "6",
+        "max_vertical_spacing_m": 1.8,
+        "max_horizontal_spacing_m": 1.2,
+        "diameter_min_mm": 150,
+        "diameter_max_mm": 150,
+        "diameter_operator": "eq"
+      }
+    ],
+    "source": "user_uploaded_photo",
+    "verification_status": "visually_transcribed_pending_independent_review",
+    "review_flags": [
+      "Check mixed fraction ranges against original",
+      "Check first cast iron row applies to all diameters",
+      "No independent comparison against official PDF yet"
+    ],
+    "material_dictionary": {
+      "1": "cast_iron_all",
+      "2": "galvanized_steel",
+      "3": "copper",
+      "4": "PE_PEX",
+      "5": "PEX_AL_PEX",
+      "6": "high_temp_PE_AL",
+      "7": "PVC"
+    },
+    "schema_version": 1.2,
+    "notes": [
+      "Numeric mm bounds are for filtering; null min means unbounded below",
+      "Nominal inch labels retained as strings because fractions are display labels, not decimal values",
+      "Source material names are preserved separately in Persian dictionary",
+      "Ranges reflect source text, not interpolated pipe dimensions"
+    ],
+    "dictionary_file": "material_dictionary.json"
+  },
+  "dictionaries": {},
+  "conversion_note": "Source retained; ambiguous expressions preserved."
+}
