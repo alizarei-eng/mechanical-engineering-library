@@ -1,0 +1,72 @@
+{
+  "schema_version": "2.0",
+  "source_file": "references/Mabhas16/Chapter-03/16-3-6-1-storage-tank.json",
+  "source_validation": "transcribed_visual_review_pending",
+  "data": {
+    "table_id": "16-3-6-1-5",
+    "title_fa": "قطر لوله تخلیه مخازن ذخیره آب",
+    "rows": [
+      {
+        "volume_litre": {
+          "id": 1,
+          "label_fa": "تا 2500"
+        },
+        "diameter_mm": 25,
+        "diameter_in": "1"
+      },
+      {
+        "volume_litre": {
+          "id": 2,
+          "label_fa": "2501 تا 5000"
+        },
+        "diameter_mm": 40,
+        "diameter_in": "1 1/2"
+      },
+      {
+        "volume_litre": {
+          "id": 3,
+          "label_fa": "5001 تا 10000"
+        },
+        "diameter_mm": 50,
+        "diameter_in": "2"
+      },
+      {
+        "volume_litre": {
+          "id": 4,
+          "label_fa": "10001 تا 20000"
+        },
+        "diameter_mm": 65,
+        "diameter_in": "2 1/2"
+      },
+      {
+        "volume_litre": {
+          "id": 5,
+          "label_fa": "20001 تا 30000"
+        },
+        "diameter_mm": 80,
+        "diameter_in": "3"
+      },
+      {
+        "volume_litre": {
+          "id": 6,
+          "label_fa": "بیش از 30000"
+        },
+        "diameter_mm": 100,
+        "diameter_in": "4"
+      }
+    ],
+    "source": "user_supplied_photographs_2026-11-20",
+    "validation_status": "transcribed_visual_review_pending"
+  },
+  "dictionaries": {
+    "volume_litre": {
+      "تا 2500": 1,
+      "2501 تا 5000": 2,
+      "5001 تا 10000": 3,
+      "10001 تا 20000": 4,
+      "20001 تا 30000": 5,
+      "بیش از 30000": 6
+    }
+  },
+  "conversion_note": "Source retained; ambiguous expressions preserved."
+}
