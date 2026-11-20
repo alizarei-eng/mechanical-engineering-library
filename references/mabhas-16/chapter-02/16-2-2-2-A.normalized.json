@@ -1,0 +1,540 @@
+{
+  "schema_version": "2.0",
+  "source_file": "references/mabhas-16/chapter-02/16-2-2-2-A.json",
+  "source_validation": "visual_transcription_pending_footnote_verification",
+  "data": {
+    "table_id": "16-2-2-2-A",
+    "title": "حداقل تعداد لوازم بهداشتی بر حسب تعداد استفاده‌کنندگان",
+    "chapter": 2,
+    "source": "user_photo_1",
+    "validation_status": "visual_transcription_pending_footnote_verification",
+    "semantics": "For each applicable occupancy/sex category, 1 fixture per N persons; round up only after confirming code notes.",
+    "columns": [
+      "occupancy",
+      "sex",
+      "toilet_per_people",
+      "washbasin_per_people",
+      "bath_or_shower_per_people",
+      "drinking_fountain_per_people"
+    ],
+    "rows": [
+      {
+        "row": 1,
+        "occupancy": {
+          "id": 1,
+          "label_fa": "تئاتر، سینما، سالن اجتماعات"
+        },
+        "sex": {
+          "id": 1,
+          "label_fa": "مردانه"
+        },
+        "toilet_per_people": 65,
+        "washbasin_per_people": 200,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 500
+      },
+      {
+        "row": 2,
+        "occupancy": {
+          "id": 1,
+          "label_fa": "تئاتر، سینما، سالن اجتماعات"
+        },
+        "sex": {
+          "id": 2,
+          "label_fa": "زنانه"
+        },
+        "toilet_per_people": 65,
+        "washbasin_per_people": 200,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 500
+      },
+      {
+        "row": 3,
+        "occupancy": {
+          "id": 2,
+          "label_fa": "اماکن مذهبی"
+        },
+        "sex": {
+          "id": 1,
+          "label_fa": "مردانه"
+        },
+        "toilet_per_people": 50,
+        "washbasin_per_people": 100,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 300
+      },
+      {
+        "row": 4,
+        "occupancy": {
+          "id": 2,
+          "label_fa": "اماکن مذهبی"
+        },
+        "sex": {
+          "id": 2,
+          "label_fa": "زنانه"
+        },
+        "toilet_per_people": 50,
+        "washbasin_per_people": 100,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 300
+      },
+      {
+        "row": 5,
+        "occupancy": {
+          "id": 3,
+          "label_fa": "رستوران، سالن پذیرایی"
+        },
+        "sex": {
+          "id": 1,
+          "label_fa": "مردانه"
+        },
+        "toilet_per_people": 75,
+        "washbasin_per_people": 200,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 500
+      },
+      {
+        "row": 6,
+        "occupancy": {
+          "id": 3,
+          "label_fa": "رستوران، سالن پذیرایی"
+        },
+        "sex": {
+          "id": 2,
+          "label_fa": "زنانه"
+        },
+        "toilet_per_people": 75,
+        "washbasin_per_people": 200,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 500
+      },
+      {
+        "row": 7,
+        "occupancy": {
+          "id": 4,
+          "label_fa": "فروشگاه (مراجعان)"
+        },
+        "sex": {
+          "id": 1,
+          "label_fa": "مردانه"
+        },
+        "toilet_per_people": 500,
+        "washbasin_per_people": 750,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 1000
+      },
+      {
+        "row": 8,
+        "occupancy": {
+          "id": 4,
+          "label_fa": "فروشگاه (مراجعان)"
+        },
+        "sex": {
+          "id": 2,
+          "label_fa": "زنانه"
+        },
+        "toilet_per_people": 500,
+        "washbasin_per_people": 750,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 1000
+      },
+      {
+        "row": 9,
+        "occupancy": {
+          "id": 5,
+          "label_fa": "فروشگاه (کارکنان)"
+        },
+        "sex": {
+          "id": 1,
+          "label_fa": "مردانه"
+        },
+        "toilet_per_people": 25,
+        "washbasin_per_people": 40,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 10,
+        "occupancy": {
+          "id": 5,
+          "label_fa": "فروشگاه (کارکنان)"
+        },
+        "sex": {
+          "id": 2,
+          "label_fa": "زنانه"
+        },
+        "toilet_per_people": 25,
+        "washbasin_per_people": 40,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 11,
+        "occupancy": {
+          "id": 6,
+          "label_fa": "ورزشگاه، استخر"
+        },
+        "sex": null,
+        "toilet_per_people": 75,
+        "washbasin_per_people": 100,
+        "bath_or_shower_per_people": 15,
+        "drinking_fountain_per_people": 500
+      },
+      {
+        "row": 12,
+        "occupancy": {
+          "id": 7,
+          "label_fa": "ساختمان‌های آموزشی"
+        },
+        "sex": {
+          "id": 1,
+          "label_fa": "مردانه"
+        },
+        "toilet_per_people": 50,
+        "washbasin_per_people": 50,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 13,
+        "occupancy": {
+          "id": 7,
+          "label_fa": "ساختمان‌های آموزشی"
+        },
+        "sex": {
+          "id": 2,
+          "label_fa": "زنانه"
+        },
+        "toilet_per_people": 50,
+        "washbasin_per_people": 50,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 14,
+        "occupancy": {
+          "id": 8,
+          "label_fa": "ساختمان‌های صنعتی"
+        },
+        "sex": {
+          "id": 1,
+          "label_fa": "مردانه"
+        },
+        "toilet_per_people": 50,
+        "washbasin_per_people": 40,
+        "bath_or_shower_per_people": 35,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 15,
+        "occupancy": {
+          "id": 8,
+          "label_fa": "ساختمان‌های صنعتی"
+        },
+        "sex": {
+          "id": 2,
+          "label_fa": "زنانه"
+        },
+        "toilet_per_people": 50,
+        "washbasin_per_people": 40,
+        "bath_or_shower_per_people": 35,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 16,
+        "occupancy": {
+          "id": 9,
+          "label_fa": "بیمارستان (بیماران)"
+        },
+        "sex": {
+          "id": 1,
+          "label_fa": "مردانه"
+        },
+        "toilet_per_people": 8,
+        "washbasin_per_people": 10,
+        "bath_or_shower_per_people": 15,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 17,
+        "occupancy": {
+          "id": 9,
+          "label_fa": "بیمارستان (بیماران)"
+        },
+        "sex": {
+          "id": 2,
+          "label_fa": "زنانه"
+        },
+        "toilet_per_people": 8,
+        "washbasin_per_people": 10,
+        "bath_or_shower_per_people": 15,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 18,
+        "occupancy": {
+          "id": 10,
+          "label_fa": "بیمارستان (کارکنان)"
+        },
+        "sex": {
+          "id": 1,
+          "label_fa": "مردانه"
+        },
+        "toilet_per_people": 25,
+        "washbasin_per_people": 35,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 19,
+        "occupancy": {
+          "id": 10,
+          "label_fa": "بیمارستان (کارکنان)"
+        },
+        "sex": {
+          "id": 2,
+          "label_fa": "زنانه"
+        },
+        "toilet_per_people": 25,
+        "washbasin_per_people": 35,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 20,
+        "occupancy": {
+          "id": 11,
+          "label_fa": "بیمارستان (مراجعان)"
+        },
+        "sex": {
+          "id": 1,
+          "label_fa": "مردانه"
+        },
+        "toilet_per_people": 75,
+        "washbasin_per_people": 100,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 500
+      },
+      {
+        "row": 21,
+        "occupancy": {
+          "id": 11,
+          "label_fa": "بیمارستان (مراجعان)"
+        },
+        "sex": {
+          "id": 2,
+          "label_fa": "زنانه"
+        },
+        "toilet_per_people": 75,
+        "washbasin_per_people": 100,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 500
+      },
+      {
+        "row": 22,
+        "occupancy": {
+          "id": 12,
+          "label_fa": "زندان (زندانیان)"
+        },
+        "sex": null,
+        "toilet_per_people": 15,
+        "washbasin_per_people": 25,
+        "bath_or_shower_per_people": 15,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 23,
+        "occupancy": {
+          "id": 13,
+          "label_fa": "زندان (زندانبانان)"
+        },
+        "sex": null,
+        "toilet_per_people": 25,
+        "washbasin_per_people": 35,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 24,
+        "occupancy": {
+          "id": 14,
+          "label_fa": "زندان (مراجعان)"
+        },
+        "sex": null,
+        "toilet_per_people": 75,
+        "washbasin_per_people": 100,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 500
+      },
+      {
+        "row": 25,
+        "occupancy": {
+          "id": 15,
+          "label_fa": "هتل و متل (عمومی)"
+        },
+        "sex": {
+          "id": 1,
+          "label_fa": "مردانه"
+        },
+        "toilet_per_people": 10,
+        "washbasin_per_people": 10,
+        "bath_or_shower_per_people": 8,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 26,
+        "occupancy": {
+          "id": 15,
+          "label_fa": "هتل و متل (عمومی)"
+        },
+        "sex": {
+          "id": 2,
+          "label_fa": "زنانه"
+        },
+        "toilet_per_people": 10,
+        "washbasin_per_people": 10,
+        "bath_or_shower_per_people": 8,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 27,
+        "occupancy": {
+          "id": 16,
+          "label_fa": "آپارتمان"
+        },
+        "sex": null,
+        "toilet_per_people": "per_apartment",
+        "washbasin_per_people": "per_apartment",
+        "bath_or_shower_per_people": "per_apartment",
+        "drinking_fountain_per_people": null
+      },
+      {
+        "row": 28,
+        "occupancy": {
+          "id": 17,
+          "label_fa": "خوابگاه"
+        },
+        "sex": null,
+        "toilet_per_people": 10,
+        "washbasin_per_people": 10,
+        "bath_or_shower_per_people": 8,
+        "drinking_fountain_per_people": 100
+      },
+      {
+        "row": 29,
+        "occupancy": {
+          "id": 18,
+          "label_fa": "انبار"
+        },
+        "sex": null,
+        "toilet_per_people": 100,
+        "washbasin_per_people": 100,
+        "bath_or_shower_per_people": 15,
+        "drinking_fountain_per_people": 1000
+      },
+      {
+        "row": 30,
+        "occupancy": {
+          "id": 19,
+          "label_fa": "ساختمان اداری"
+        },
+        "sex": {
+          "id": 1,
+          "label_fa": "مردانه"
+        },
+        "toilet_per_people": 20,
+        "washbasin_per_people": 25,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 75
+      },
+      {
+        "row": 31,
+        "occupancy": {
+          "id": 19,
+          "label_fa": "ساختمان اداری"
+        },
+        "sex": {
+          "id": 2,
+          "label_fa": "زنانه"
+        },
+        "toilet_per_people": 20,
+        "washbasin_per_people": 25,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 75
+      },
+      {
+        "row": 32,
+        "occupancy": {
+          "id": 20,
+          "label_fa": "ترمینال‌های مسافری (هوایی، دریایی، اتوبوس)"
+        },
+        "sex": {
+          "id": 1,
+          "label_fa": "مردانه"
+        },
+        "toilet_per_people": 75,
+        "washbasin_per_people": 200,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 1000
+      },
+      {
+        "row": 33,
+        "occupancy": {
+          "id": 20,
+          "label_fa": "ترمینال‌های مسافری (هوایی، دریایی، اتوبوس)"
+        },
+        "sex": {
+          "id": 2,
+          "label_fa": "زنانه"
+        },
+        "toilet_per_people": 75,
+        "washbasin_per_people": 200,
+        "bath_or_shower_per_people": null,
+        "drinking_fountain_per_people": 1000
+      }
+    ],
+    "notes": [
+      "(۱) حداکثر به تعداد ۶۷ درصد توالت مورد نیاز برای مردان، می‌توان به جای توالت، یورینال نصب کرد.",
+      "(۲) ارقام برای مراجعان است.",
+      "(۳) ارقام برای کارکنان است.",
+      "(۴) چنانچه وزارت بهداشت، درمان و آموزش پزشکی ضوابط متفاوتی داشته باشد، الزامات سختگیرانه‌تر باید ملاک عمل قرار گیرد.",
+      "(۵) علامت‌های ارجاع در ردیف بیماران باید با متن کامل پانوشت صفحه تطبیق داده شوند؛ بخش پایانی پانوشت در تصویر بریده است.",
+      "(۷) ارجاع‌های ۷ در برخی ردیف‌ها وجود دارند ولی متن کامل پانوشت در تصویر دیده نمی‌شود."
+    ],
+    "limitations": [
+      "Null means dash/not stated, not zero.",
+      "Per-apartment is a distinct rule, not a numerical divisor.",
+      "Repeated male/female categories are preserved as separate records.",
+      "Some footnotes are cropped; do not use automatically for code-compliance approval."
+    ]
+  },
+  "dictionaries": {
+    "occupancy": {
+      "تئاتر، سینما، سالن اجتماعات": 1,
+      "اماکن مذهبی": 2,
+      "رستوران، سالن پذیرایی": 3,
+      "فروشگاه (مراجعان)": 4,
+      "فروشگاه (کارکنان)": 5,
+      "ورزشگاه، استخر": 6,
+      "ساختمان‌های آموزشی": 7,
+      "ساختمان‌های صنعتی": 8,
+      "بیمارستان (بیماران)": 9,
+      "بیمارستان (کارکنان)": 10,
+      "بیمارستان (مراجعان)": 11,
+      "زندان (زندانیان)": 12,
+      "زندان (زندانبانان)": 13,
+      "زندان (مراجعان)": 14,
+      "هتل و متل (عمومی)": 15,
+      "آپارتمان": 16,
+      "خوابگاه": 17,
+      "انبار": 18,
+      "ساختمان اداری": 19,
+      "ترمینال‌های مسافری (هوایی، دریایی، اتوبوس)": 20
+    },
+    "sex": {
+      "مردانه": 1,
+      "زنانه": 2
+    }
+  },
+  "conversion_note": "Source retained; ambiguous expressions preserved."
+}
