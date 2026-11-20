@@ -1,0 +1,93 @@
+{
+  "id": "16-4-2-4-t-1",
+  "title_fa": "حداقل اندازه سیفون‌های لوله‌ای شکل برای لوازم بهداشتی",
+  "columns": [
+    "fixture_fa",
+    "trap_diameter_mm",
+    "trap_diameter_in"
+  ],
+  "rows": [
+    {
+      "fixture_fa": "دستشویی",
+      "trap_diameter_mm": 32,
+      "trap_diameter_in": "1 1/4"
+    },
+    {
+      "fixture_fa": "بیده",
+      "trap_diameter_mm": 32,
+      "trap_diameter_in": "1 1/4"
+    },
+    {
+      "fixture_fa": "سینک عمومی",
+      "trap_diameter_mm": 40,
+      "trap_diameter_in": "1 1/2"
+    },
+    {
+      "fixture_fa": "وان",
+      "trap_diameter_mm": 40,
+      "trap_diameter_in": "1 1/2"
+    },
+    {
+      "fixture_fa": "زیردوشی",
+      "trap_diameter_mm": 40,
+      "trap_diameter_in": "1 1/2"
+    },
+    {
+      "fixture_fa": "آبخوری",
+      "trap_diameter_mm": 32,
+      "trap_diameter_in": "1 1/4"
+    },
+    {
+      "fixture_fa": "سینک آشپزخانه و رستوران",
+      "trap_diameter_mm": 40,
+      "trap_diameter_in": "1 1/2"
+    },
+    {
+      "fixture_fa": "یورینال",
+      "trap_diameter_mm": 40,
+      "trap_diameter_in": "1 1/2"
+    },
+    {
+      "fixture_fa": "توالت شرقی",
+      "trap_diameter_mm": 100,
+      "trap_diameter_in": "4"
+    },
+    {
+      "fixture_fa": "لگن رختشویی دستی",
+      "trap_diameter_mm": 40,
+      "trap_diameter_in": "1 1/2"
+    },
+    {
+      "fixture_fa": "ماشین رختشویی خانگی",
+      "trap_diameter_mm": 50,
+      "trap_diameter_in": "2"
+    },
+    {
+      "fixture_fa": "ماشین رختشویی تجاری",
+      "trap_diameter_mm": 80,
+      "trap_diameter_in": "3"
+    },
+    {
+      "fixture_fa": "ماشین ظرفشویی خانگی",
+      "trap_diameter_mm": 40,
+      "trap_diameter_in": "1 1/2"
+    },
+    {
+      "fixture_fa": "ماشین ظرفشویی تجاری",
+      "trap_diameter_mm": 80,
+      "trap_diameter_in": "3"
+    },
+    {
+      "fixture_fa": "کفشوی خانگی",
+      "trap_diameter_mm": 50,
+      "trap_diameter_in": "2"
+    },
+    {
+      "fixture_fa": "کفشوی فضاهای عمومی و تجاری",
+      "trap_diameter_mm": 80,
+      "trap_diameter_in": "3"
+    }
+  ],
+  "verification_status": "transcribed_from_user_photo",
+  "note": "نام جدول در عکس «16-4-2-4 ت (1)» خوانده می‌شود؛ اعداد مستقیماً از عکس ثبت شدند."
+}
