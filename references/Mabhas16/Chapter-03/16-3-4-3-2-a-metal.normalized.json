@@ -1,0 +1,42 @@
+{
+  "schema_version": "2.0",
+  "source_file": "references/Mabhas16/Chapter-03/16-3-4-3-2-a-metal.json",
+  "source_validation": "visually transcribed; standards identifiers must be checked against original before compliance use",
+  "data": {
+    "table_id": "16-3-4-3-2-a",
+    "part": "metal",
+    "title_fa": "لوله های فلزی مورد استفاده در توزیع آب سرد و آب گرم مصرفی",
+    "rows": [
+      {
+        "standard": "ISIRI",
+        "galvanized_steel": "423 heavy",
+        "stainless_steel": null,
+        "copper": null
+      },
+      {
+        "standard": "EN-BS-DIN",
+        "galvanized_steel": "10220/10255 heavy",
+        "stainless_steel": null,
+        "copper": "EN-1056"
+      },
+      {
+        "standard": "ISO",
+        "galvanized_steel": "65/4200 heavy",
+        "stainless_steel": null,
+        "copper": 274
+      },
+      {
+        "standard": "ASTM",
+        "galvanized_steel": "A53/A53M standard",
+        "stainless_steel": [
+          "A312",
+          "A778"
+        ],
+        "copper": "B88"
+      }
+    ],
+    "verification": "visually transcribed; standards identifiers must be checked against original before compliance use"
+  },
+  "dictionaries": {},
+  "conversion_note": "Original JSON preserved. Numeric parsing only for unambiguous values; strings and standards retained."
+}
