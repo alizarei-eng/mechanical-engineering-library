@@ -1,0 +1,167 @@
+{
+  "schema_version": "2.0",
+  "source_file": "references/Mabhas16/Chapter-04/16-4-2-4-t-1.json",
+  "source_validation": "not_verified",
+  "data": {
+    "id": "16-4-2-4-t-1",
+    "title_fa": "حداقل اندازه سیفون‌های لوله‌ای شکل برای لوازم بهداشتی",
+    "columns": [
+      "fixture_fa",
+      "trap_diameter_mm",
+      "trap_diameter_in"
+    ],
+    "rows": [
+      {
+        "fixture_fa": {
+          "id": 1,
+          "label_fa": "دستشویی"
+        },
+        "trap_diameter_mm": 32,
+        "trap_diameter_in": "1 1/4"
+      },
+      {
+        "fixture_fa": {
+          "id": 2,
+          "label_fa": "بیده"
+        },
+        "trap_diameter_mm": 32,
+        "trap_diameter_in": "1 1/4"
+      },
+      {
+        "fixture_fa": {
+          "id": 3,
+          "label_fa": "سینک عمومی"
+        },
+        "trap_diameter_mm": 40,
+        "trap_diameter_in": "1 1/2"
+      },
+      {
+        "fixture_fa": {
+          "id": 4,
+          "label_fa": "وان"
+        },
+        "trap_diameter_mm": 40,
+        "trap_diameter_in": "1 1/2"
+      },
+      {
+        "fixture_fa": {
+          "id": 5,
+          "label_fa": "زیردوشی"
+        },
+        "trap_diameter_mm": 40,
+        "trap_diameter_in": "1 1/2"
+      },
+      {
+        "fixture_fa": {
+          "id": 6,
+          "label_fa": "آبخوری"
+        },
+        "trap_diameter_mm": 32,
+        "trap_diameter_in": "1 1/4"
+      },
+      {
+        "fixture_fa": {
+          "id": 7,
+          "label_fa": "سینک آشپزخانه و رستوران"
+        },
+        "trap_diameter_mm": 40,
+        "trap_diameter_in": "1 1/2"
+      },
+      {
+        "fixture_fa": {
+          "id": 8,
+          "label_fa": "یورینال"
+        },
+        "trap_diameter_mm": 40,
+        "trap_diameter_in": "1 1/2"
+      },
+      {
+        "fixture_fa": {
+          "id": 9,
+          "label_fa": "توالت شرقی"
+        },
+        "trap_diameter_mm": 100,
+        "trap_diameter_in": "4"
+      },
+      {
+        "fixture_fa": {
+          "id": 10,
+          "label_fa": "لگن رختشویی دستی"
+        },
+        "trap_diameter_mm": 40,
+        "trap_diameter_in": "1 1/2"
+      },
+      {
+        "fixture_fa": {
+          "id": 11,
+          "label_fa": "ماشین رختشویی خانگی"
+        },
+        "trap_diameter_mm": 50,
+        "trap_diameter_in": "2"
+      },
+      {
+        "fixture_fa": {
+          "id": 12,
+          "label_fa": "ماشین رختشویی تجاری"
+        },
+        "trap_diameter_mm": 80,
+        "trap_diameter_in": "3"
+      },
+      {
+        "fixture_fa": {
+          "id": 13,
+          "label_fa": "ماشین ظرفشویی خانگی"
+        },
+        "trap_diameter_mm": 40,
+        "trap_diameter_in": "1 1/2"
+      },
+      {
+        "fixture_fa": {
+          "id": 14,
+          "label_fa": "ماشین ظرفشویی تجاری"
+        },
+        "trap_diameter_mm": 80,
+        "trap_diameter_in": "3"
+      },
+      {
+        "fixture_fa": {
+          "id": 15,
+          "label_fa": "کفشوی خانگی"
+        },
+        "trap_diameter_mm": 50,
+        "trap_diameter_in": "2"
+      },
+      {
+        "fixture_fa": {
+          "id": 16,
+          "label_fa": "کفشوی فضاهای عمومی و تجاری"
+        },
+        "trap_diameter_mm": 80,
+        "trap_diameter_in": "3"
+      }
+    ],
+    "verification_status": "transcribed_from_user_photo",
+    "note": "نام جدول در عکس «16-4-2-4 ت (1)» خوانده می‌شود؛ اعداد مستقیماً از عکس ثبت شدند."
+  },
+  "dictionaries": {
+    "fixture_fa": {
+      "دستشویی": 1,
+      "بیده": 2,
+      "سینک عمومی": 3,
+      "وان": 4,
+      "زیردوشی": 5,
+      "آبخوری": 6,
+      "سینک آشپزخانه و رستوران": 7,
+      "یورینال": 8,
+      "توالت شرقی": 9,
+      "لگن رختشویی دستی": 10,
+      "ماشین رختشویی خانگی": 11,
+      "ماشین رختشویی تجاری": 12,
+      "ماشین ظرفشویی خانگی": 13,
+      "ماشین ظرفشویی تجاری": 14,
+      "کفشوی خانگی": 15,
+      "کفشوی فضاهای عمومی و تجاری": 16
+    }
+  },
+  "conversion_note": "Source retained; ambiguous expressions preserved."
+}
